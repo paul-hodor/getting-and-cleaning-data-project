@@ -22,19 +22,19 @@ The variables describing data groups are:
 
 The feature variables are:
 
-* __BodyAcc-XYZ__
-* __GravityAcc-XYZ__
-* __BodyAccJerk-XYZ__
-* __BodyGyro-XYZ__
-* __BodyGyroJerk-XYZ__
+* __BodyAcc.XYZ__
+* __GravityAcc.XYZ__
+* __BodyAccJerk.XYZ__
+* __BodyGyro.XYZ__
+* __BodyGyroJerk.XYZ__
 * __BodyAccMag__
 * __GravityAccMag__
 * __BodyAccJerkMag__
 * __BodyGyroMag__
 * __BodyGyroJerkMag__
-* __BodyAcc-XYZ__
-* __BodyAccJerk-XYZ__
-* __BodyGyro-XYZ__
+* __BodyAcc.XYZ__
+* __BodyAccJerk.XYZ__
+* __BodyGyro.XYZ__
 * __BodyAccMag__
 * __BodyBodyAccJerkMag__
 * __BodyBodyGyroMag__

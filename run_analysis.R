@@ -61,6 +61,7 @@ data <- data[,feat.keep]
 names(data) <- features$feature[feat.keep]
 names(data) <- gsub("\\(","",names(data))
 names(data) <- gsub("\\)","",names(data))
+names(data) <- gsub("-",".",names(data))
 
 
 ################################################################################
