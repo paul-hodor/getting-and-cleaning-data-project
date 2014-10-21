@@ -6,7 +6,7 @@ The repo describes a data extract from the "Human Activity Recognition Using Sma
 
 From the original variables derived from accelerometer and gyroscope raw signals, 33 were selected for this dataset. For each variable mean and standard deviation features were retained. Individual records were averaged for each subject and activity.
 
-The data extract contains 69 variables. The first 3 describe the data groups, the other 66 are the signal features. For each tye of signal there are two variables representing the mean value (labeled "mean") and the standard deviation ("std") averaged over subjects and activities. 3-axial signals in the X, Y, and Z directions are represented by 3 different variables, where the direction is appended to the variable label.
+The data extract contains 69 variables. The first 3 describe the data groups, the other 66 are the signal features. For each type of signal there are two variables representing the mean value (labeled "mean") and the standard deviation ("std") averaged over subjects and activities. 3-axial signals in the X, Y, and Z directions are represented by 3 different variables, where the direction is appended to the variable label. For example signal type __BodyAcc.XYZ__ is represented by 6 features, i.e. means and standard deviations in each of the 3 axes: __tBodyAcc.mean.X__, __tBodyAcc.mean.Y__, __tBodyAcc.mean.Z__, __tBodyAcc.std.X__, __tBodyAcc.std.Y__, __tBodyAcc.std.Z__.
 
 ---
 
@@ -20,23 +20,23 @@ The variables describing data groups are:
 
 ---
 
-The feature variables are:
+The feature variables represent the following signal types:
 
-* __BodyAcc.XYZ__
-* __GravityAcc.XYZ__
-* __BodyAccJerk.XYZ__
-* __BodyGyro.XYZ__
-* __BodyGyroJerk.XYZ__
-* __BodyAccMag__
-* __GravityAccMag__
-* __BodyAccJerkMag__
-* __BodyGyroMag__
-* __BodyGyroJerkMag__
-* __BodyAcc.XYZ__
-* __BodyAccJerk.XYZ__
-* __BodyGyro.XYZ__
-* __BodyAccMag__
-* __BodyBodyAccJerkMag__
-* __BodyBodyGyroMag__
-* __BodyBodyGyroJerkMag__
+* __tBodyAcc.XYZ__
+* __tGravityAcc.XYZ__
+* __tBodyAccJerk.XYZ__
+* __tBodyGyro.XYZ__
+* __tBodyGyroJerk.XYZ__
+* __tBodyAccMag__
+* __tGravityAccMag__
+* __tBodyAccJerkMag__
+* __tBodyGyroMag__
+* __tBodyGyroJerkMag__
+* __fBodyAcc.XYZ__
+* __fBodyAccJerk.XYZ__
+* __fBodyGyro.XYZ__
+* __fBodyAccMag__
+* __fBodyBodyAccJerkMag__
+* __fBodyBodyGyroMag__
+* __fBodyBodyGyroJerkMag__
 
