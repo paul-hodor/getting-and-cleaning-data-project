@@ -4,7 +4,7 @@ The repo describes a data extract from the "Human Activity Recognition Using Sma
 
 > Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-Prepration of the dataset is done with R script ```make_tidy.R```. The script carries out the following transformations:
+Prepration of the dataset is done with R script ```run_analysis.R```. The script carries out the following transformations:
 
 * The training and test feature datasets are merged.
 
